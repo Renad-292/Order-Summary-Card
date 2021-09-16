@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #E0E8FF;
+    text-align: center;
+    position: relative;
+}
+
+.backgroundImage{
+    width: 100%;
+}
+
+.card{
+    background-color: white;
+    width: 30%;
+    position: absolute; 
+    margin-top: -430px;
+    margin-left: 35%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(147, 152, 168, 0.2), 0 6px 20px 0 rgba(147, 152, 168, 0.19);
+    padding-bottom: 50px;
+}
+
+.hero{
+    width: 100%;
+    border-radius: 25px 25px 0 0px;
+    margin-bottom: 40px;
+}
+
+h3{
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description{
+    color: #70768E;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price{
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #F8F9FE;
+    border-radius: 15px;
+    text-align: justify;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.price img{
+    display: inline-block;
+    margin: 20px;
+    /* margin-right: 10px ; */
+}
+
+.price div{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.price a{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(0, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #544EB9;
+}
+
+.price a:hover{
+    color: A6A2E3;
+    text-decoration: none;
+}
+
+.btn{
+    display: block;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 15px;
+    background-color: #382AE1;
+    height: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    background-color: #766CF1;
+}
+
+.cancel{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70768E;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.cancel:hover{
+    color: black;
+}
